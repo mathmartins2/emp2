@@ -1,0 +1,25 @@
+.Searchbox{
+   margin: 20px;
+    & input{
+        padding: 16px 18px ;
+        border: 1px solid rgba(0, 39, 78, 0.5);
+        width: 359px;
+        height: 54px;
+        border-radius: 5px;
+        position: absolute;
+        color:rgba(0, 39, 78, 0.5);
+    }
+    & i {
+        color: #fff;
+        font-weight: 900;
+        font-size: 24px;
+        background-color: #00274E;
+        padding: 6px 8px;
+        border-radius: 5px;
+        position: relative;
+        margin-left: 312px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+   
+}

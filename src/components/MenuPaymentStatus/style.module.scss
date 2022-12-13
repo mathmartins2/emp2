@@ -1,0 +1,48 @@
+.fullBox{
+    border: 1px solid rgba(0, 39, 78, 0.5);
+    width: 229px;
+    height: 148px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-align: center;
+    transition: .2s; 
+    margin-left: 24px;
+    padding-top: 13px;
+    display:inline-block;
+    
+    &.fullBox:hover{
+        border: 1px solid #FF6407;
+        transform: scaleY(1.1);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.06);
+         cursor: pointer;
+    }
+    & .icons{
+        padding-top: 19px;
+        font-size: 22px;
+
+        & .icon--secondary{
+            font-size: 9px;
+            color:#00B050;
+            display: inline-block;
+        }
+    }
+    & hr{
+        width: 141px;
+        margin: auto;
+        margin-top: 20px;
+        color: #00274E;
+    }
+    & .value{
+        padding-top: 16px;
+        color:#00274E;
+
+        & .amount{
+            font-weight: 600;
+        }
+    }
+   
+    .outstanding{
+        padding-left: 13px;
+    }
+}
+    
